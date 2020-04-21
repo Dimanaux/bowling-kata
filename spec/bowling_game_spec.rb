@@ -2,7 +2,7 @@ require 'spec_helper'
 
 require 'bowling_game'
 
-describe BowlingGame do
+RSpec.describe BowlingGame do
   subject { game.score }
 
   let(:game) { described_class.new pins }
